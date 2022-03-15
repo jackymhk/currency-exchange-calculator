@@ -6,7 +6,7 @@ const cheerio = require('cheerio')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.json("Hello world")
+    res.json("Currency Exchange Calculator")
 })
 
 app.get('/exchange', (req, res) => {
